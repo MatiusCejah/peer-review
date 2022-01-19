@@ -8,6 +8,23 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            height: 30px;
+            border-radius: 5px;
+            border-width: 0px;
+            padding: 1px;
+            margin: 10px;
+            margin-top: 20px;
+        }
+        #send{
+            background-color: #1259c3;
+        }
+    </style>
     <body>
         <header>
             <div class="top-header">
@@ -39,9 +56,9 @@
         </header>
         <main class="login">
             <form action="/" method="POST">
-                <input type="text" name="user" placeholder="Nombre de usuario">
-                <input type="password" name="pass" placeholder="Elegí tu contraseña">
-                <input type="submit" value="Enviar">
+                <input type="text" name="user" placeholder="  Nombre de usuario">
+                <input type="password" name="pass" placeholder="  Elegí tu contraseña">
+                <input type="submit" value="Enviar" id="send">
             </form>
         </main>
         <footer>
