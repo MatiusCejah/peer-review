@@ -233,6 +233,11 @@ main section article:hover .description{
         width: 22%;
     }
 }
+footer div{
+    display: flex;
+    flex-direction: row;
+
+}
 
 .foo {
 
@@ -242,4 +247,8 @@ main section article:hover .description{
 .icono {
     font-size: 2em;
     color: #1259c3;
+}
+
+footer i:hover {
+    color: salmon;
 }
