@@ -210,6 +210,8 @@ main section article:hover .description{
     header nav ul {
         display: flex  ;
         justify-content: space-between;
+        flex: 1;
+        margin-right: 5px;
     }
     
     main section div.products article{

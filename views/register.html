@@ -8,6 +8,24 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
+    <style>
+        .register{
+            margin: 20px;
+        }
+
+        #name,
+        #user,
+        #email,
+        #birth_date,
+        #addres{
+            width: 95%;
+            border-radius: 5px;
+            border: 0px;
+            padding: 1px;
+            margin: 10px;
+        }
+
+    </style>
     <body>
         <header>
             <div class="top-header">
@@ -39,15 +57,15 @@
         </header>
         <main class="register">
             <form action="/" method="POST">
-                <input type="text" name="name" placeholder="Nombre y apellido">
-                <input type="text" name="user" placeholder="Nombre de usuario">
-                <input type="email" name="email" placeholder="E-mail">
+                <input type="text" name="name" id="name" placeholder="Nombre y apellido">
+                <input type="text" name="user" id="user" placeholder="Nombre de usuario">
+                <input type="email" name="email" id="email" placeholder="E-mail">
                 <br>
                 <label for="birth_date"><b>Fecha de nacimiento</b></label>
                 <br>
                 <input type="date" name="birth_date" id="birth_date">
                 <br>
-                <input type="text" name="addres" placeholder="Domicilio">
+                <input type="text" name="addres" id="addres" placeholder="Domicilio">
                 <h4>Perfil del usuario</h4>
                 <div class="profile">
                     <input type="radio" name="profile" value="buy" id="buy">
