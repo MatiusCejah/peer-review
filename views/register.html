@@ -13,6 +13,21 @@
             margin: 20px;
         }
 
+        .profile{
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+        }
+        
+        .profile label{
+            flex: 1;
+        }
+
+        .profile input{
+            flex: 1;
+        }
+
+
         #name,
         #user,
         #email,
@@ -23,6 +38,10 @@
             border: 0px;
             padding: 1px;
             margin: 10px;
+        }
+
+        .interests div {
+            margin: 20px;
         }
 
     </style>
@@ -63,7 +82,7 @@
                 <br>
                 <label for="birth_date"><b>Fecha de nacimiento</b></label>
                 <br>
-                <input type="date" name="birth_date" id="birth_date">
+                <input type="date" name="birth_date" id="birth_date" >
                 <br>
                 <input type="text" name="addres" id="addres" placeholder="Domicilio">
                 <h4>Perfil del usuario</h4>
